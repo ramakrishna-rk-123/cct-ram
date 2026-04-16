@@ -383,9 +383,9 @@ export default function App() {
           <a href="#/register" className="npb npb-g" style={{ textDecoration: 'none' }}>
             Donate Blood
           </a>
-          <a href="#/donate" className="npb npb-s" style={{ textDecoration: 'none' }}>
+          <button type="button" className="npb npb-s" onClick={() => scrollTo(campaignsRef.current)}>
             Contribute →
-          </a>
+          </button>
         </div>
       </nav>
 
@@ -1482,9 +1482,9 @@ export default function App() {
             Donate Blood
           </a>
           <div className="fdock-div" />
-          <a href="#/donate" className="fdock-btn fdock-money" style={{ textDecoration: 'none' }}>
+          <button type="button" className="fdock-btn fdock-money" onClick={() => scrollTo(campaignsRef.current)}>
             💛 Contribute
-          </a>
+          </button>
           <div className="fdock-div" />
           <button type="button" className="fdock-close" onClick={() => setDockDismissed(true)}>
             ✕
