@@ -260,10 +260,7 @@ export default function DonatePage() {
 
           <div className="don-success-actions">
             <a href="#/" className="don-btn don-btn-primary">Back to Home</a>
-            <a href="#/" className="don-btn don-btn-back" onClick={() => {
-              const el = document.getElementById('campaigns')
-              if (el) el.scrollIntoView({ behavior: 'smooth' })
-            }}>Explore More Campaigns</a>
+            <a href="#/register" className="don-btn don-btn-back">Register as Donor</a>
           </div>
         </div>
 

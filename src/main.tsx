@@ -4,6 +4,7 @@ import './index.css'
 import App from './App.tsx'
 import DonorRegistration from './pages/DonorRegistration.tsx'
 import ContributePage from './pages/ContributePage.tsx'
+import Donate from './pages/Donate.tsx'
 
 function Router() {
   const [route, setRoute] = useState(window.location.hash || '#/')
@@ -19,6 +20,9 @@ function Router() {
   }
   if (route === '#/contribute') {
     return <ContributePage />
+  }
+  if (route === '#/donate') {
+    return <Donate />
   }
   return <App />
 }

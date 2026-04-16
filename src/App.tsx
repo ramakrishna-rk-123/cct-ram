@@ -383,9 +383,9 @@ export default function App() {
           <a href="#/register" className="npb npb-g" style={{ textDecoration: 'none' }}>
             Donate Blood
           </a>
-          <button type="button" className="npb npb-s" onClick={() => scrollTo(campaignsRef.current)}>
+          <a href="#/donate" className="npb npb-s" style={{ textDecoration: 'none' }}>
             Contribute →
-          </button>
+          </a>
         </div>
       </nav>
 
@@ -472,9 +472,9 @@ export default function App() {
               <div className="hcc-donors">
                 🤝 <strong>1,240</strong> donors · <strong>142</strong> days left
               </div>
-              <button type="button" className="hcc-btn">
+              <a href="#/donate" className="hcc-btn" style={{ textDecoration: 'none' }}>
                 Donate Now
-              </button>
+              </a>
             </div>
           </div>
         </div>
@@ -1296,9 +1296,9 @@ export default function App() {
                 <div className="cc-donors">
                   🤝 <strong>418</strong> donors
                 </div>
-                <button type="button" className="cc-cta">
+                <a href="#/donate" className="cc-cta" style={{ textDecoration: 'none' }}>
                   Donate Now
-                </button>
+                </a>
               </div>
             </div>
             <div className="cc">
@@ -1316,9 +1316,9 @@ export default function App() {
                 <div className="cc-donors">
                   🤝 <strong>2,108</strong> donors
                 </div>
-                <button type="button" className="cc-cta">
+                <a href="#/donate" className="cc-cta" style={{ textDecoration: 'none' }}>
                   Donate Now
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -1387,9 +1387,9 @@ export default function App() {
                   onChange={(e) => setDpAmt(e.target.value)}
                 />
               </div>
-              <button type="button" className="dp-btn">
+              <a href="#/donate" className="dp-btn" style={{ textDecoration: 'none', display: 'block', textAlign: 'center' }}>
                 Donate Securely →
-              </button>
+              </a>
               <div className="trust-r">
                 <span className="trb">🔒 SSL Secured</span>
                 <span className="trb">📄 80G Cert</span>
@@ -1482,9 +1482,9 @@ export default function App() {
             Donate Blood
           </a>
           <div className="fdock-div" />
-          <button type="button" className="fdock-btn fdock-money" onClick={() => scrollTo(campaignsRef.current)}>
+          <a href="#/donate" className="fdock-btn fdock-money" style={{ textDecoration: 'none' }}>
             💛 Contribute
-          </button>
+          </a>
           <div className="fdock-div" />
           <button type="button" className="fdock-close" onClick={() => setDockDismissed(true)}>
             ✕
